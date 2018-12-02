@@ -19,6 +19,7 @@ Vagrant.configure("2") do |config|
 			
 	config.vm.provision "shell", path: "C:\\Users\\Test\\DemoDeploy\\configVM.ps1"
 	config.vm.provision "shell", path: "C:\\Users\\Test\\DemoDeploy\\getRepository.ps1"
+	config.vm.provision "shell", path: "C:\\Users\\Test\\DemoDeploy\\configDB.ps1"
 	config.vm.provision "shell", path: "C:\\Users\\Test\\DemoDeploy\\deployWebApp.ps1"
 	
 end
