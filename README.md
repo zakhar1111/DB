@@ -5,8 +5,8 @@ The demo is an example of creating an employed environment for building and runn
 Automating the process of creating a working environment using the example of the following infrastructure: Windows 2016 server, SQL EXPRESS server, IIS server. This infrastructure should provide verification of the functionality and build process of the web application (Store).
 
 ## Tools
-Vagrant v2.2.0
-Virtual Box v5.2.20
+* Vagrant v2.2.0
+* Virtual Box v5.2.20
 
 ## Repository Folders 
 Stor - sources of web-application
