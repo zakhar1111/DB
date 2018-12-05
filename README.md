@@ -6,7 +6,7 @@ Automating the process of creating a working environment using the example of th
 
 ## Tools
 * Vagrant v2.2.0
-* Virtual Box v5.2.20
+* VirtualBox v5.2.20
 
 ## Repository Folders 
 Stor - sources of web-application
@@ -21,6 +21,10 @@ Vagrant - scripts that orchestrate the process of the deployment and configurati
   ```
   PathScript = "C:\\Users\\Test\\DemoMyBox"
   ```
+When you close the Vagrantfile save changes
+4. Install the Vagrant v2.2.0 https://wwww.vagrantup.com/downloads.html
+5. Install the VirtualBox https://www.virtualbox.org/wiki/Downloads
+
 When you close the file save changes
 4. Install the current version Vagrant https://www.vagrantup.com/downloads.html
 5. Install the current version of Virtual Box
