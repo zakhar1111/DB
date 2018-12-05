@@ -16,18 +16,12 @@ Vagrant - scripts that orchestrate the process of the deployment and configurati
 ## Quick start
 1. Download and unzip repository [link here](https://github.com/zakhar1111/DB.git)
 2. Go to the directory "Vagrant"
-3. Open and edit a path-line in the Vagrantfile to the file to the actual one. 
+3. Open and edit a path-line in the Vagrantfile to the file to the actual one. When you close the Vagrantfile save changes.
   ```
   PathScript = "C:\\Users\\Test\\DemoMyBox"
   ```
-When you close the Vagrantfile save changes
-
 4. Install the Vagrant v2.2.0 [link here](https://wwww.vagrantup.com/downloads.html)
 5. Install the VirtualBox [link here](https://www.virtualbox.org/wiki/Downloads)
-
-When you close the file save changes
-4. Install the current version Vagrant https://www.vagrantup.com/downloads.html
-5. Install the current version of Virtual Box
 6. Go to the folder with Vagrantfile and open Powershell for this folder or open Powershell and enter the cd command specifying the actual path to Vagratfile
   ```
   cd C:\Path\To\Vagratfile
@@ -36,8 +30,10 @@ When you close the file save changes
   ```
   vagrant up
   ```
-8. To enter the virtual machine enter the password
-vagrant
+8. To login to the VM enter the password
+  ```
+  vagrant
+  ```
 
 ## Workspace description and configuration script
 Modular diagram of the working environment of the web application
