@@ -14,16 +14,15 @@ Packages - artifacts for building application with msbuild
 Vagrant - scripts that orchestrate the process of the deployment and configuration of a virtual machine (VM) windows 2016 server, SQL server, iis server, build sources.
 
 ## Quick start
-1. Download and unzip repository
-	https://github.com/zakhar1111/DB.git
+1. Download and unzip repository [link here!](https://github.com/zakhar1111/DB.git)
 2. Go to the directory "Vagrant"
 3. Open and edit a path-line in the Vagrantfile to the file to the actual one. 
   ```
   PathScript = "C:\\Users\\Test\\DemoMyBox"
   ```
 When you close the Vagrantfile save changes
-4. Install the Vagrant v2.2.0 https://wwww.vagrantup.com/downloads.html
-5. Install the VirtualBox https://www.virtualbox.org/wiki/Downloads
+4. Install the Vagrant v2.2.0 [link here!](https://wwww.vagrantup.com/downloads.html)
+5. Install the VirtualBox [link here!](https://www.virtualbox.org/wiki/Downloads)
 
 When you close the file save changes
 4. Install the current version Vagrant https://www.vagrantup.com/downloads.html
