@@ -8,10 +8,10 @@ Automating the process of creating a working environment using the example of th
 * Vagrant v2.2.0
 * VirtualBox v5.2.20
 
-## Repository Folders 
-Stor - sources of web-application
-Packages - artifacts for building application with msbuild
-Vagrant - scripts that orchestrate the process of the deployment and configuration of a virtual machine (VM) windows 2016 server, SQL server, iis server, build sources.
+## Repository Structure Folders 
+* Stor - sources of web-application
+* Packages - artifacts for building application with msbuild
+* Vagrant - scripts that orchestrate the process of the deployment and configuration of a virtual machine (VM) windows 2016 server, SQL server, iis server, build sources.
 
 ## Quick start
 1. Download and unzip repository [link here](https://github.com/zakhar1111/DB.git)
