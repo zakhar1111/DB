@@ -22,8 +22,8 @@ Vagrant - scripts that orchestrate the process of the deployment and configurati
   PathScript = "C:\\Users\\Test\\DemoMyBox"
   ```
 When you close the file, save changes.
-4. Install the current version Vagrant https://www.vagrantup.com/downloads.html  no less than.
-5. Install the current version of Virtual Box.
+4. Install the current version Vagrant https://www.vagrantup.com/downloads.html
+5. Install the current version of Virtual Box
 6. Go to the folder with Vagrantfile and open Powershell for this folder or open Powershell and enter the cd command specifying the actual path to Vagratfile
   ```
   cd C:\Path\To\Vagratfile
