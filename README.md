@@ -30,10 +30,14 @@ Vagrant - scripts that orchestrate the process of the deployment and configurati
   ```
   vagrant up
   ```
-8. To login to the VM enter the password
+8. To login to the VM enter default password
   ```
-  vagrant
+  *vagrant*
   ```
 
 ## Workspace description and configuration script
 Modular diagram of the working environment of the web application
+
+![image](https://github.com/zakhar1111/zakhar1111/blob/master/Scheme.png)
+
+
