@@ -32,12 +32,11 @@ Vagrant - scripts that orchestrate the process of the deployment and configurati
   ```
 8. To login to the VM enter default password
   ```
-  *vagrant*
+  vagrant
   ```
 
 ## Workspace description and configuration script
-Modular diagram of the working environment of the web application
-
+The big picture of the working environment where the web application is published.
 ![image](https://github.com/zakhar1111/zakhar1111/blob/master/Scheme.png)
-
-
+The Store Web application works with database therefore, the vagrant is configured to deploy VMs with the following services: Windows 2016 server, MS SQL Express server v17.9, IIS server v10.0. 
+The Git v2.19 is installed for cloning sources from the repository.
