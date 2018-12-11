@@ -43,7 +43,14 @@
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ProductID }) |
             @Html.ActionLink("Details", "Details", new { id=item.ProductID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ProductID })
+            @Html.ActionLink("Delete", "Delete", new { id=item.ProductID }) |
+            @Html.ActionLink("AddToCart", "Cart") |
+            @using (Html.BeginForm("AddToCart", "Cart"))
+            {
+               // @Html.HiddenFor(x => x)
+                @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
+                <input type="submit" value="+ Add to cart" />
+            } 
         </td>
     </tr>
 }

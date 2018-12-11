@@ -9,11 +9,7 @@ namespace Store.Models
         public StoreContext()
             : base("name=StoreContext")
         {
-            Database.SetInitializer<StoreContext>(new CreateDatabaseIfNotExists<StoreContext>());
-
-            //Database.SetInitializer<SchoolDBContext>(new DropCreateDatabaseIfModelChanges<SchoolDBContext>());
-            //Database.SetInitializer<SchoolDBContext>(new DropCreateDatabaseAlways<SchoolDBContext>());
-            //Database.SetInitializer<SchoolDBContext>(new SchoolDBInitializer());
+            Database.SetInitializer<StoreContext>(new StoreInitializer());//(new CreateDatabaseIfNotExists<StoreContext>());
         }
         public DbSet<Product> Products { get; set; }
     }
