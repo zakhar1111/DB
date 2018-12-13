@@ -13,7 +13,7 @@ namespace Store.Tests
                   new Product {Name = "Soccer ball", Category = "Soccer", Price = 19.50M},
                   new Product {Name = "Corner flag", Category = "Soccer", Price = 34.95M}
                 };
-        [TestMethod]
+        //[TestMethod]
         public void TestMethod1()
         {
            
